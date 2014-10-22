@@ -1,5 +1,6 @@
 <html>
   <head> 
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -20,10 +21,10 @@
           <div class='row'>
             <div class='col-md-4 col-md-offset-2' ng-show="!scraping">
               <div class='row'>
-                Starting Spot: <input type="number" ng-model="startCount" placeholder='0' /></br>
+                Starting Spot: <input type="number" ng-model="startCount" placeholder='1' /></br>
               </div>
               <div class='row'>
-                Ending Spot:  <input type="number" ng-model="endCount" placeholder='2000' />
+                Ending Spot:  <input type="number" ng-model="endCount" placeholder='2001' />
               </div>
             </div>
             <div class='col-md-3 col-md-offset-1' ng-show="!scraping">

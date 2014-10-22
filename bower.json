@@ -1,0 +1,14 @@
+{
+  "name": "hacker-news-dashboard",
+  "version": "0.0.0",
+  "authors": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "client/library"
+  ],
+  "dependencies": {
+    "ngFx": "~1.0.4"
+  }
+}
