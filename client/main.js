@@ -85,22 +85,22 @@ angular.module('scraper',[])
         $scope.scraping = true;
         pullAndWrite();
         if ($scope.startCount < $scope.endCount) {
-          $scope.startCount += 2000;
-          $scope.endCount += 2000;
+          $scope.startCount += 2001;
+          $scope.endCount += 2001;
         } else {
-            $scope.startCount -= 2000;
-            $scope.endCount -= 2000;
+            $scope.startCount -= 2001;
+            $scope.endCount -= 2001;
         }
 
         // every minute run http get and post requests.
         $interval(function() {
           pullAndWrite();
           if ($scope.startCount < $scope.endCount) {
-            $scope.startCount += 2000;
-            $scope.endCount += 2000;
+            $scope.startCount += 2001;
+            $scope.endCount += 2001;
           } else {
-            $scope.startCount -= 2000;
-            $scope.endCount -= 2000;
+            $scope.startCount -= 2001;
+            $scope.endCount -= 2001;
           }
         }, 60000);
       }
