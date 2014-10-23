@@ -19,7 +19,7 @@ angular.module('scraper',[])
         alert('Please enter start and end values\nwith a difference of 2000.\nYour current difference is: ' + Math.abs($scope.endCount - $scope.startCount) );
         return false;
       }
-    }
+    };
 
     // loop through the start count and stop count.
     var pullAndWrite = function() {

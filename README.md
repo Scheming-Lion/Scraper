@@ -34,7 +34,7 @@
     * If item 5555 was the last item you downloaded the file would be renamed items-1-5555.txt
 
 ### Current index of data
-1. 1 - 1,692,160 items completed (Justin)
+1. 1 - 2,832,730 items completed (Justin)
 1. 4,879,476 - 8,474,817 items completed (Adam)
 
-* Total on Oct. 22: 5,287,501
+* Total on Oct. 23: 6,428,071
